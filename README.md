@@ -8,8 +8,6 @@ Add the Swift Package in Xcode.
 
 ![](gifs/snap.gif)
 
-### Activate
-
 ```swift
 class ViewController: UIViewController {
 
@@ -27,8 +25,6 @@ class ViewController: UIViewController {
 ## Gravity
 
 ![](gifs/gravity.gif)
-
-### Activate
 
 ```swift
 class ViewController: UIViewController {
