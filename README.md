@@ -8,9 +8,41 @@ Add the Swift Package in Xcode.
 
 ![](gifs/snap.gif)
 
+### Activate
+
+```swift
+class ViewController: UIViewController {
+
+  let navigationControllerDelegate = DynamicsNavigationControllerDelegate()
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+        
+    navigationControllerDelegate.type = .gravity
+    navigationController?.delegate = navigationControllerDelegate
+  }
+}
+```
+
 ## Gravity
 
 ![](gifs/gravity.gif)
+
+### Activate
+
+```swift
+class ViewController: UIViewController {
+
+  let navigationControllerDelegate = DynamicsNavigationControllerDelegate()
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+        
+    navigationControllerDelegate.type = .snap
+    navigationController?.delegate = navigationControllerDelegate
+  }
+}
+```
 
 ## Author
 
